@@ -14,4 +14,4 @@ The Proxmox install was pretty straightforward with minimal hiccups.
 
 Issue #1:
 I was not very familiar with how the dongle would be reconized internally and my knowledge of Linux Bridges were very minimal. However, I was able to troubleshoot the issue once I read documentation confered with
-Claude to fill any knowledge gaps.
+Claude to fill any knowledge gaps. The issue was that the "enx" dongle was not configured with vmbr0. Vmbr0 is the outer Linux Bridge that ultimately gives access to the internet. Vmbr0 by default wanted the wireless NIC connection instead of a wired one. To configure I just switched names of the NIC to the enx dongle which solved that issue. 
