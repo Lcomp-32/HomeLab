@@ -1,7 +1,7 @@
 # HomeLab
 
 Overview:
-My homelab is where I can tinker and apply real-world concepts from my studies. Cybersecurity is the main focus as my career goal is to be a SOC analyst with a long-term goal of Incident Response. This will include each different "Lab" as a separate project in GitHub.
+My homelab is where I can tinker and apply real-world concepts from my studies. Cybersecurity is the main focus as my career goal is to be a SOC analyst with a long-term goal of Incident Response.
 
 Hardware:
 An old Lenovo Ideapad with 20gb of RAM with an i5 processor.
